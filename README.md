@@ -7,6 +7,10 @@
 </p>
 
 <p align="center">
+  <video src="https://github.com/user-attachments/assets/aa94b8d4-0690-46a3-bf52-65f85b1e8fe7" controls width="600"></video>
+</p>
+
+<p align="center">
   <a href="#tecnologias">🛠️ Tecnologias</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
   <a href="#projeto">📘 Projeto</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
   <a href="#licenca">📝 Licença</a>
