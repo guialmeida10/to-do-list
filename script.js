@@ -11,7 +11,7 @@ function adicionarTarefa() {
     item.innerHTML = tarefa + '<span onclick="removerTarefa(this)">❌</span>'
     lista.appendChild(item)
 
-    salvarTarefas() // 🔹 Salva no localStorage
+    salvarTarefas() // Salva no localStorage
     input.value = ""
   } else {
     alert("Por favor, digite uma tarefa.")
@@ -20,7 +20,7 @@ function adicionarTarefa() {
 
 function removerTarefa(span) {
   span.parentElement.remove()
-  salvarTarefas() // 🔹 Atualiza localStorage após remoção
+  salvarTarefas() // Atualiza localStorage após remoção
 }
 
 function salvarTarefas() {
