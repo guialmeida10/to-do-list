@@ -18,6 +18,13 @@ function adicionarTarefa() {
   }
 }
 
+let input = document.querySelector("input")
+input.addEventListener("keydown", function (event) {
+  if (event.key === "Enter") {
+    adicionarTarefa()
+  }
+})
+
 function removerTarefa(span) {
   span.parentElement.remove()
   salvarTarefas() // Atualiza localStorage após remoção
